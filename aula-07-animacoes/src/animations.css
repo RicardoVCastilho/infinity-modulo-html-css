@@ -1,0 +1,31 @@
+:root {
+  --box-size: 100px;
+  --box-color: #3498db;
+  --animation-duration: 2s;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.box {
+  width: var(--box-size);
+  height: var(--box-size);
+  background-color: var(--box-color);
+  position: relative;
+  animation: moveRight var(--animation-duration) linear infinite;
+}
+
+@keyframes moveRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 80vw;
+  }
+}

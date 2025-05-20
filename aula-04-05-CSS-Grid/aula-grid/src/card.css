@@ -1,0 +1,47 @@
+/* Estilo geral do cartão */
+.comment-card {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do texto do comentário */
+.comment-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Pseudo-elemento ::before - ícone antes do texto */
+.comment-text::before {
+    content: "🗣️ ";
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Pseudo-elemento ::after - linha após o comentário */
+.comment-text::after {
+    content: " - Fim do comentário.";
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Pseudo-elemento ::first-letter - estilizando a primeira letra */
+.comment-text::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Pseudo-elemento ::first-line - estilizando a primeira linha */
+.comment-text::first-line {
+    font-weight: bold;
+    color: #FF5733;
+}

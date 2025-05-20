@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.caixa {
+  background-color: steelblue;
+  color: white;
+  padding: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Para telas até 600px (mobile) */
+@media (max-width: 600px) {
+  .caixa {
+    background-color: crimson;
+    font-size: 16px;
+  }
+}
+
+/* Para telas de 601px a 900px (tablet) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .caixa {
+    background-color: darkorange;
+    font-size: 25px;
+  }
+}
+
+/* Para telas acima de 901px (desktop) */
+@media (min-width: 901px) {
+  .caixa {
+    background-color: forestgreen;
+    font-size: 24px;
+  }
+}

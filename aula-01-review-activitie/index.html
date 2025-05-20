@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mega Agência - Portfólio e Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Mega Agência</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+         <!-- Seção de Apresentação -->
+        <section>
+            <h1>Bem-vindo à Mega Agência.</h1>
+            <p>Esta é uma agência de marketing digital especializada em soluções criativas para o seu negócio.</p>
+        </section>
+
+         <!-- Seção de Serviços -->
+        <section>
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Consultoria em Marketing Digital</li>
+                <li>Desenvolvimento de Websites</li>
+                <li>Gestão de redes sociais</li>
+            </ul>
+        </section>
+
+         <!-- Artigo com Imagem -->
+        <article>
+            <img src="https://placehold.jp/150x150.png" alt="Imagem placeholder ilustrativa">
+        </article>
+
+        <!-- Formulário de contato -->
+        <section>
+            <h2>Fale Conosco</h2>
+            <form action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value=""></option>
+                    <option value="consultoria">Consultoria</option>
+                    <option value="website">Desenvolvimento de Website</option>
+                    <option value="consultoria">Gestão de redes sociais</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mega Agência - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Animação Complexa</title>
+  <link rel="stylesheet" href="./src/super-transition.css" />
+</head>
+<body>
+  <div class="animated-box"></div>
+  <button class="btn">Clique Aqui</button>
+
+  <script>
+    // Captura o botão e a caixa
+    const button = document.querySelector('.btn');
+    const box = document.querySelector('.animated-box');
+
+    // Adiciona um evento de clique
+    button.addEventListener('click', () => {
+      box.classList.toggle('animate');
+    });
+  </script>
+</body>
+</html>
