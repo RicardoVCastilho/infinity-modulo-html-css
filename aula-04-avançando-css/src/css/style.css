@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Container externo com position relative */
+.container {
+  position: relative;
+  background-color: #d1e7dd;
+  padding: 40px;
+  border: 2px solid #0f5132;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Bloco interno com position absolute */
+.inner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background-color: #f8d7da;
+  border: 2px solid #842029;
+  padding: 10px 15px;
+  width: 200px;
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+}
+

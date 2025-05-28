@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho fixo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Espaçamento para não ficar atrás do cabeçalho */
+.content {
+  padding-top: 80px;
+}
+
+/* Imagem com z-index maior */
+.big-image {
+  display: block;
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  position: relative;
+  z-index: 10;
+}
+
+/* Texto adicional */
+.text {
+  padding: 20px;
+  background-color: #f0f0f0;
+  line-height: 1.6;
+}
