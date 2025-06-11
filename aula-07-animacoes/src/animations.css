@@ -1,7 +1,7 @@
 :root {
   --box-size: 100px;
   --box-color: #3498db;
-  --animation-duration: 2s;
+  --animation-duration: 10s;
 }
 
 body {

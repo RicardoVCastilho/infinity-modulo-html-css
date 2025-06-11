@@ -1,0 +1,65 @@
+:root {
+      /* Variáveis de cor  */
+      --cor-fundo: #f0f0f0;
+      --cor-texto: #333;
+      --cor-destaque: #3498db;
+
+      /* Variáveis de tamanho */
+      --fonte-h1: 2rem;
+      --fonte-p: 1rem;
+      --espacamento: 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+      font-family: Arial, sans-serif;
+      padding: var(--espacamento);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: var(--fonte-h1);
+      margin-bottom: var(--espacamento);
+    }
+
+    p {
+      font-size: var(--fonte-p);
+      margin-bottom: var(--espacamento);
+    }
+
+    a, .btn {
+      color: white;
+      background-color: var(--cor-destaque);
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      :root {
+        --fonte-h1: 1.5rem;
+        --fonte-p: 0.9rem;
+        --espacamento: 15px;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      :root {
+        --fonte-h1: 2.5rem;
+        --fonte-p: 1.2rem;
+        --espacamento: 30px;
+      }
+    }
