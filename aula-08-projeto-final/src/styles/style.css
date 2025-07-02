@@ -185,7 +185,8 @@ button::before {
   left: -75%;
   width: 50%;
   height: 100%;
-  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3) 0%, transparent 100%);
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3) 
+  0%, transparent 100%);
   transform: skewX(-20deg);
   transition: left 0.5s ease;
 }
